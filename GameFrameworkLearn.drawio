@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T18:57:00.191Z" agent="5.0 (Windows)" etag="Mmz829p0clr5p_OmAiHu" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-23T04:08:46.862Z" agent="5.0 (Windows)" etag="ZjgR79Nk93Tl6-yZoGaf" version="20.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2751" dy="2225" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -165,7 +165,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="60lWfc97_Md1UdRuLnQR-127" value="ResourceIniter" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;strokeWidth=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1280" y="-61" width="326" height="263" as="geometry">
+          <mxGeometry x="1277" y="-58" width="326" height="263" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -176,12 +176,12 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1040" y="696" />
-              <mxPoint x="1040" y="494" />
+              <mxPoint x="1040" y="533" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="60lWfc97_Md1UdRuLnQR-131" value="ResourceChecker" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;strokeWidth=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1280" y="513" width="160" height="108" as="geometry">
+          <mxGeometry x="1277" y="481" width="160" height="108" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -260,6 +260,9 @@
         <mxCell id="u7afOrTUqHZcuy_nIgbm-17" style="endArrow=open;endSize=12;dashed=1;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;align=center;startFill=1;endFill=0;strokeColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="u7afOrTUqHZcuy_nIgbm-1" target="u7afOrTUqHZcuy_nIgbm-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="u7afOrTUqHZcuy_nIgbm-33" style="endArrow=open;endSize=12;dashed=1;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;align=center;startFill=0;endFill=1;strokeColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="u7afOrTUqHZcuy_nIgbm-1" target="u7afOrTUqHZcuy_nIgbm-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="u7afOrTUqHZcuy_nIgbm-1" value="ResourceComponent" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;strokeWidth=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="258" y="392.5" width="320" height="261" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
@@ -277,8 +280,29 @@
         <mxCell id="u7afOrTUqHZcuy_nIgbm-13" value="Lanunch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-93" y="205" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u7afOrTUqHZcuy_nIgbm-15" value="&lt;div&gt;CheckVersion&lt;/div&gt;&lt;div&gt;通过ResourceManager的&lt;br&gt;&lt;/div&gt;VersionListProcesser检查版本" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-249" y="368" width="276" height="60" as="geometry" />
+        <mxCell id="u7afOrTUqHZcuy_nIgbm-26" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;align=center;startFill=0;endFill=1;strokeColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="u7afOrTUqHZcuy_nIgbm-15" target="u7afOrTUqHZcuy_nIgbm-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u7afOrTUqHZcuy_nIgbm-27" value="NeedUpdate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u7afOrTUqHZcuy_nIgbm-26">
+          <mxGeometry x="-0.2353" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7afOrTUqHZcuy_nIgbm-31" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;align=center;startFill=0;endFill=1;strokeColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="u7afOrTUqHZcuy_nIgbm-15" target="u7afOrTUqHZcuy_nIgbm-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-245" y="397" />
+              <mxPoint x="-245" y="728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7afOrTUqHZcuy_nIgbm-32" value="NotUpdate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u7afOrTUqHZcuy_nIgbm-31">
+          <mxGeometry x="-0.3092" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7afOrTUqHZcuy_nIgbm-15" value="&lt;div&gt;CheckVersion&lt;/div&gt;&lt;div&gt;通过ResourceManager的&lt;br&gt;&lt;/div&gt;VersionListProcesser检查版本" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-171" y="353" width="276" height="87" as="geometry" />
         </mxCell>
         <mxCell id="u7afOrTUqHZcuy_nIgbm-22" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;fontFamily=Helvetica;fontSize=11;fontColor=default;align=center;endFill=0;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="60lWfc97_Md1UdRuLnQR-119" target="u7afOrTUqHZcuy_nIgbm-18">
           <mxGeometry relative="1" as="geometry">
@@ -301,6 +325,15 @@
         </mxCell>
         <mxCell id="u7afOrTUqHZcuy_nIgbm-21" value="获取沙盒路径下版本信息文件中的版本号，跟远端获取的版本号进行对比，如果版本信息文件不存在，或者这个过程中出现异常或者版本号不一样，都返回需要更新" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#5C5C5C;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="u7afOrTUqHZcuy_nIgbm-18">
           <mxGeometry y="60" width="329" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="u7afOrTUqHZcuy_nIgbm-30" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;align=center;startFill=0;endFill=1;strokeColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="u7afOrTUqHZcuy_nIgbm-24" target="u7afOrTUqHZcuy_nIgbm-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u7afOrTUqHZcuy_nIgbm-24" value="&lt;div&gt;UpdateVersion&lt;div&gt;通过ResourceManager的&lt;br&gt;&lt;/div&gt;VersionListProcesser更新版本&lt;/div&gt;&lt;div&gt;先通过downloadManager下载资源列表文件&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-162.5" y="531" width="259" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u7afOrTUqHZcuy_nIgbm-28" value="VerifyResources" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-93" y="698" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
